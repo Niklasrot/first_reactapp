@@ -5,7 +5,7 @@ import React from "react"
 export default function Main() {
     return (
         <main>
-            <img src="./src/components/111.png" className="main-backgroundlogo" />
+            <img src="./first_reactapp/src/components/111.png" className="main-backgroundlogo" />
             <h1 className="main-funfacts">Fun facts about react</h1>
             <ul className="main-list">
                 <li>Was first released in 2013</li>
