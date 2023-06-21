@@ -1,11 +1,11 @@
 
-
+import HalfReact from "./111.png"
 import React from "react"
 
 export default function Main() {
     return (
         <main>
-            <img src="./111.png" className="main-backgroundlogo" />
+            <img src={HalfReact} className="main-backgroundlogo" />
             <h1 className="main-funfacts">Fun facts about react</h1>
             <ul className="main-list">
                 <li>Was first released in 2013</li>
