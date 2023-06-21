@@ -1,0 +1,65 @@
+body {
+    background-color: #282d35;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+  /* Navbar */
+  .nav {
+    background-color: #21222a;
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    gap: 50px;
+    height: 300px;
+  }
+  
+  .nav-logo {
+    height: 200px;
+  }
+  
+  .reactfacts {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  .reactcoursetext {
+    margin-left: auto;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    align-items: center; /* Vertically center the text */
+  }
+
+/* Main Content */
+
+  .main-funfacts {
+    color: antiquewhite;
+    font-size: 130px;
+    padding-left: 100px;
+  }
+
+  .main-list > li::marker {
+    color: #61dafb;
+    font-size: 50px;
+  }
+
+  .main-list {
+    padding-left: 200px;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 1200px;
+    color: wheat;
+    margin-bottom: 50px;
+  }
+
+  .main-list > li {
+    padding-bottom: 50px
+  }
+  
+  .main-backgroundlogo {
+    float: right;
+    height: 400px;
+    margin-top: 170px;
+    opacity: 0.3;
+  }
